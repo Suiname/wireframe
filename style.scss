@@ -1,0 +1,115 @@
+$navwidth: 20%;
+$navheight: 100%;
+$mainwidth: 80%;
+$full: 100%;
+$topheight: 20%;
+$navmainheight: 80%;
+$pad: 10px;
+$mainheight: 70%;
+$footheight: 10%;
+$maintxtalign: center;
+$mimgwidth: 25%;
+$foottxtsize: 65%;
+$hfont: sans-serif;
+
+
+
+body{
+  height: 97%;
+  background-color: rgb(250, 206, 19);
+}
+
+html{
+  height: $full;
+}
+
+h1{
+  font-size: 300%;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+li{
+  margin: 0 0 15% 0;
+}
+
+input{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content{
+  display: block;
+  text-align: justify;
+  padding: 10px;
+}
+
+.wrapper{
+  width: 95%;
+  height: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar{
+  width: $navwidth;
+  height: $navheight;
+  float: left;
+}
+
+
+.navicon{
+  width: $full;
+  height: $topheight;
+}
+
+.navmain{
+  width: $full;
+  height: $navmainheight;
+  font-size: 150%;
+  padding-top: $pad;
+}
+
+.listimg{
+  height: 20%;
+}
+
+.navimg{
+  width: $full;
+  height: $full;
+  }
+
+.mainimg{
+  width: $mimgwidth;
+  float: left;
+  padding: $pad;
+}
+
+.mainpage{
+  float: right;
+  width: $mainwidth;
+  height: $full;
+}
+
+.maintop{
+  height: $topheight;
+  text-align: $maintxtalign;
+}
+
+.main{
+  height: $mainheight;
+  text-align: $maintxtalign;
+}
+
+.mainfoot{
+  height: $footheight;
+  text-align: $maintxtalign;
+  font-size:  $foottxtsize;
+}

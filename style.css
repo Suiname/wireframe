@@ -1,0 +1,82 @@
+body {
+  height: 97%;
+  background-color: #face13; }
+
+html {
+  height: 100%; }
+
+h1 {
+  font-size: 300%;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0; }
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0; }
+
+li {
+  margin: 0 0 15% 0; }
+
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.content {
+  display: block;
+  text-align: justify;
+  padding: 10px; }
+
+.wrapper {
+  width: 95%;
+  height: 95%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.navbar {
+  width: 20%;
+  height: 100%;
+  float: left; }
+
+.navicon {
+  width: 100%;
+  height: 20%; }
+
+.navmain {
+  width: 100%;
+  height: 80%;
+  font-size: 150%;
+  padding-top: 10px; }
+
+.listimg {
+  height: 20%; }
+
+.navimg {
+  width: 100%;
+  height: 100%; }
+
+.mainimg {
+  width: 25%;
+  float: left;
+  padding: 10px; }
+
+.mainpage {
+  float: right;
+  width: 80%;
+  height: 100%; }
+
+.maintop {
+  height: 20%;
+  text-align: center; }
+
+.main {
+  height: 70%;
+  text-align: center; }
+
+.mainfoot {
+  height: 10%;
+  text-align: center;
+  font-size: 65%; }
+
+/*# sourceMappingURL=style.css.map */
