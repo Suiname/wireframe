@@ -29,10 +29,7 @@ switch (type) {
     break;
 case 'text':
 default:
-
-
 //body text component constructor
-
 //create an array of dom elements, since I have multiple section tags of class content on the page and want to search through them all
 
   this.domElementArr = [];
@@ -54,11 +51,11 @@ default:
     var remspan = new RegExp('</span>', 'g');
     this.domElementArr[variable].innerHTML = textbox.domElementArr[variable].innerHTML.replace(remspan, '');
     this.domElementArr[variable].innerHTML = textbox.domElementArr[variable].innerHTML.replace(flag, '<span class="highlight">' + text + '</span>');
-  }
+    }
   }
 
- }
-}
+  } //end of switch
+} //end of component constructor
 
 //instantiate a search box and a textbox
 var searchbox = new component('search');
