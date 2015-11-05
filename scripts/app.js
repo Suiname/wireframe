@@ -1,11 +1,14 @@
+//test
 console.log('component has loaded');
 var searchterm; //global variable for search term
 
 window.onload = function() {
 
+function component(type) {
 
+switch (type) {
+  case 'search':
 //search bar component constructor
-function searchcomponent() {
 
 //creates domElement set to the first input element
     this.domElement = document.getElementsByTagName('input')[0];
@@ -23,12 +26,13 @@ function searchcomponent() {
     }
 
 
+    break;
+case 'text':
+default:
 
-  }
 
 //body text component constructor
 
-function textcomponent() {
 //create an array of dom elements, since I have multiple section tags of class content on the page and want to search through them all
 
   this.domElementArr = [];
@@ -53,10 +57,11 @@ function textcomponent() {
   }
   }
 
+ }
 }
 
 //instantiate a search box and a textbox
-var searchbox = new searchcomponent();
-var textbox = new textcomponent();
+var searchbox = new component('search');
+var textbox = new component('text');
 
 } //end window.onload
