@@ -12,8 +12,10 @@ function searchcomponent() {
 
 //add a listener event for the search box, sets searchterm to be the value of the search box and then passes that value to the textbox render function
     this.domElement.addEventListener('search', function(event){
-        searchterm = (event.path[0].value);
-        textbox.render(searchterm);
+        if(event.path[0].value){
+          searchterm = (event.path[0].value);
+          textbox.render(searchterm);
+          }
       });
 
     this.render = function(query){
