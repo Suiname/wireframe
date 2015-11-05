@@ -7,6 +7,7 @@ window.onload = function() {
 //search bar component constructor
 function searchcomponent() {
 
+//creates domElement set to the first input element
     this.domElement = document.getElementsByTagName('input')[0];
 
 //add a listener event for the search box, sets searchterm to be the value of the search box and then passes that value to the textbox render function
