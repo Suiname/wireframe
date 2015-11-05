@@ -26,7 +26,8 @@ input {
 .content {
   display: block;
   text-align: justify;
-  padding: 10px; }
+  padding: 10px;
+  float: left; }
 
 .wrapper {
   width: 95%;
@@ -78,5 +79,8 @@ input {
   height: 10%;
   text-align: center;
   font-size: 65%; }
+
+.highlight {
+  background-color: #e900fe; }
 
 /*# sourceMappingURL=style.css.map */
