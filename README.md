@@ -11,6 +11,7 @@ I made two UI component constructors, one for the search bar on the left and one
 
 
 The text box constructor creates:
+
 1. a textbox object object which has an array of domElements which contain every tag on the page of class 'content' so we are able to modify all text
 2. a render method which loops through the array of all elements with class name content and then calls the string replace method on all text inside these elements to add some CSS that makes the text appear highlighted in purple.
 
