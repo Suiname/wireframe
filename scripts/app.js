@@ -32,8 +32,8 @@ function textcomponent() {
 //create an array of dom elements, since I have multiple section tags of class content on the page and want to search through them all
 
   this.domElementArr = [];
-  for (var variable = 0; variable < document.getElementsByClassName('content').length; variable++) {
-    this.domElementArr[variable] = document.getElementsByClassName('content')[variable];
+  for (var variable = 0; variable < document.getElementsByClassName('bodytext').length; variable++) {
+    this.domElementArr[variable] = document.getElementsByClassName('bodytext')[variable];
   }
 
 //body text render function loops through the array of all elements with class name content, it then calls the string replace method
